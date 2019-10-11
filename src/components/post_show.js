@@ -31,7 +31,8 @@ class PostsShow extends Component {
         }
         return (
             <div>
-                <Link to='/' className="">Back To Index</Link>
+                <Link to='/' className="">Back To Home</Link>
+                <br/>
                 <button className="btn btn-danger pull-xs-right" onClick={this.onDeleteClick.bind(this)}>Delete</button>
                 <h3>{posts.title}</h3>
                 <h6>Categories: {posts.categories}</h6>
